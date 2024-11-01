@@ -6,19 +6,19 @@ function calc() {
 
   switch (op) {
     case "+":
-      lblOutput.innerHTML = number01 + number02;
+      lblOutput.innerHTML = ("Answer is :")+(number01 + number02);
       console.log(number01+number02);
       break;
     case "-":
-      lblOutput.innerHTML = number01 - number02;
+      lblOutput.innerHTML = ("Answer is :")+(number01 - number02);
       console.log(number01-number02);
       break;
     case "*":
-      lblOutput.innerHTML = number01 * number02;
+      lblOutput.innerHTML = ("Answer is :")+(number01 * number02);
       console.log(number01*number02);
       break;
     case "/":
-      lblOutput.innerHTML = number01 / number02;
+      lblOutput.innerHTML = ("Answer is :")+(number01 / number02);
       console.log(number01/number02);
       break;
   }
